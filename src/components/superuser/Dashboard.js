@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import 'aos/dist/aos.css';
-// import * as firebase from 'firebase';
+import * as firebase from 'firebase';
 // import Sidebar from './Sidebar'
 import * as ReactBootStrap from 'react-bootstrap';
 
@@ -56,3 +56,10 @@ class Dashboard extends React.Component {
 
 
 export default Dashboard;
+
+
+/* <button onClick={() => {
+                    firebase.auth().signOut().then(() => {
+                        console.log("Logged Out")
+                    })
+                }}>Logout</button> */

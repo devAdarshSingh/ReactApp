@@ -9,28 +9,22 @@ export default class Services extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            isShown: false,
+            isShown: true,
         }
     }
 
-    mouseEnter = () => {
-        this.setState({
-            isShown: true,
-        })
-    }
+    // mouseEnter = () => {
+    //     this.setState({
+    //         isShown: true,
+    //     })
+    // }
 
-    mouseLeave = () => {
-        this.setState({
-            isShown: false,
-        })
-    }
+    // mouseLeave = () => {
+    //     this.setState({
+    //         isShown: false,
+    //     })
+    // }
     render() {
-        const images = [
-            '/assets/services.jpeg',
-            '/assets/546187.jpg',
-            '/asstes/s-col-1.jpg',
-            '/assets/bgPattern.png',
-        ]
         return (
             <section id="Services" style={{ backgroundColor: 'rgb(26, 123, 230, 0.06)' }} >
                 <ReactBootStrap.Container className="s-container">

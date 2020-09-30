@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import 'aos/dist/aos.css';
-import * as firebase from 'firebase';
+// import * as firebase from 'firebase';
 // import Sidebar from './Sidebar'
 import * as ReactBootStrap from 'react-bootstrap';
 
@@ -11,11 +11,11 @@ class Dashboard extends React.Component {
     constructor(props) {
         super(props);
         this.state = ({
-            FAQ: true,
-            career: true,
-            blogs: true,
-            gallery: true,
-            news: true,
+            FAQ: false,
+            career: false,
+            blogs: false,
+            gallery: false,
+            news: false,
         })
     }
 
@@ -56,10 +56,3 @@ class Dashboard extends React.Component {
 
 
 export default Dashboard;
-
-
-/* <button onClick={() => {
-                    firebase.auth().signOut().then(() => {
-                        console.log("Logged Out")
-                    })
-                }}>Logout</button> */

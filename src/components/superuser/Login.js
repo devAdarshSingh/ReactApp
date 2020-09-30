@@ -58,7 +58,7 @@ class Login extends React.Component {
             <div className="admin-bg">
                 <ReactBootStrap.Container >
                     <ReactBootStrap.Row style={{ justifyContent: 'center', alignItems: 'center', marginTop: 25, }}>
-                        <ReactBootStrap.Col md={4} className="login-box">
+                        <ReactBootStrap.Col md={6} xl={4} className="login-box">
                             <ReactBootStrap.Form onSubmit={(e) => login(e,this.state.email, this.state.password)}  >
                                 <ReactBootStrap.Form.Group controlId="formBasicEmail">
                                     <ReactBootStrap.Form.Label>Email address</ReactBootStrap.Form.Label>

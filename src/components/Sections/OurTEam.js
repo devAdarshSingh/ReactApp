@@ -27,8 +27,17 @@ const OurTeam = () => {
                                 <ReactBootStrap.Image style={{width:'20vh',height:'20vh',border:'2px solid #eee'}} src="/assets/career 1.png" roundedCircle />
                             </ReactBootStrap.Col>
 
-                            <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-                            <h6 class="subtitle">Property Specialist</h6>
+                            <h5 class="mt-4 font-weight-medium mb-0">Name here</h5>
+                            <h6 class="subtitle">Profile</h6>
+                            <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
+                        </ReactBootStrap.Col>
+                        <ReactBootStrap.Col className="team-single-container" data-aos="fade-up" style={{ textAlign: 'center' }} md={4}>
+                            <ReactBootStrap.Col style={{ alignItems: 'center' }}>
+                                <ReactBootStrap.Image style={{ width: '20vh', height: '20vh', border: '2px solid #eee' }} src="/assets/career 1.png" roundedCircle />
+                            </ReactBootStrap.Col>
+
+                            <h5 class="mt-4 font-weight-medium mb-0">Name here</h5>
+                            <h6 class="subtitle">Profile</h6>
                             <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
                         </ReactBootStrap.Col>
                         <ReactBootStrap.Col className="team-single-container" data-aos="fade-up" style={{textAlign:'center'}} md={4}>
@@ -36,71 +45,27 @@ const OurTeam = () => {
                                 <ReactBootStrap.Image style={{width:'20vh',height:'20vh',border:'2px solid #eee'}} src="/assets/career 1.png" roundedCircle />
                             </ReactBootStrap.Col>
 
-                            <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-                            <h6 class="subtitle">Property Specialist</h6>
+                            <h5 class="mt-4 font-weight-medium mb-0">Name here</h5>
+                            <h6 class="subtitle">Profile</h6>
                             <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
                         </ReactBootStrap.Col>
-                        <ReactBootStrap.Col className="team-single-container" data-aos="fade-up" style={{textAlign:'center'}} md={4}>
-                            <ReactBootStrap.Col style={{alignItems:'center'}}>
-                                <ReactBootStrap.Image style={{width:'20vh',height:'20vh',border:'2px solid #eee'}} src="/assets/career 1.png" roundedCircle />
+
+                        <ReactBootStrap.Col className="team-single-container" data-aos="fade-up" style={{ textAlign: 'center' }} md={4}>
+                            <ReactBootStrap.Col style={{ alignItems: 'center' }}>
+                                <ReactBootStrap.Image style={{ width: '20vh', height: '20vh', border: '2px solid #eee' }} src="/assets/career 1.png" roundedCircle />
                             </ReactBootStrap.Col>
 
-                            <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-                            <h6 class="subtitle">Property Specialist</h6>
+                            <h5 class="mt-4 font-weight-medium mb-0">Name here</h5>
+                            <h6 class="subtitle">Profile</h6>
                             <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
                         </ReactBootStrap.Col>
-                        <ReactBootStrap.Col className="team-single-container" data-aos="fade-up" style={{textAlign:'center'}} md={4}>
-                            <ReactBootStrap.Col style={{alignItems:'center'}}>
-                                <ReactBootStrap.Image style={{width:'20vh',height:'20vh',border:'2px solid #eee'}} src="/assets/career 1.png" roundedCircle />
+                        <ReactBootStrap.Col className="team-single-container" data-aos="fade-up" style={{ textAlign: 'center' }} md={4}>
+                            <ReactBootStrap.Col style={{ alignItems: 'center' }}>
+                                <ReactBootStrap.Image style={{ width: '20vh', height: '20vh', border: '2px solid #eee' }} src="/assets/career 1.png" roundedCircle />
                             </ReactBootStrap.Col>
 
-                            <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-                            <h6 class="subtitle">Property Specialist</h6>
-                            <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
-                        </ReactBootStrap.Col>
-                        <ReactBootStrap.Col className="team-single-container" data-aos="fade-up" style={{textAlign:'center'}} md={4}>
-                            <ReactBootStrap.Col style={{alignItems:'center'}}>
-                                <ReactBootStrap.Image style={{width:'20vh',height:'20vh',border:'2px solid #eee'}} src="/assets/career 1.png" roundedCircle />
-                            </ReactBootStrap.Col>
-
-                            <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-                            <h6 class="subtitle">Property Specialist</h6>
-                            <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
-                        </ReactBootStrap.Col>
-                        <ReactBootStrap.Col className="team-single-container" data-aos="fade-up" style={{textAlign:'center'}} md={4}>
-                            <ReactBootStrap.Col style={{alignItems:'center'}}>
-                                <ReactBootStrap.Image style={{width:'20vh',height:'20vh',border:'2px solid #eee'}} src="/assets/career 1.png" roundedCircle />
-                            </ReactBootStrap.Col>
-
-                            <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-                            <h6 class="subtitle">Property Specialist</h6>
-                            <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
-                        </ReactBootStrap.Col>
-                        <ReactBootStrap.Col className="team-single-container" data-aos="fade-up" style={{textAlign:'center'}} md={4}>
-                            <ReactBootStrap.Col style={{alignItems:'center'}}>
-                                <ReactBootStrap.Image style={{width:'20vh',height:'20vh',border:'2px solid #eee'}} src="/assets/career 1.png" roundedCircle />
-                            </ReactBootStrap.Col>
-
-                            <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-                            <h6 class="subtitle">Property Specialist</h6>
-                            <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
-                        </ReactBootStrap.Col>
-                        <ReactBootStrap.Col className="team-single-container" data-aos="fade-up" style={{textAlign:'center'}} md={4}>
-                            <ReactBootStrap.Col style={{alignItems:'center'}}>
-                                <ReactBootStrap.Image style={{width:'20vh',height:'20vh',border:'2px solid #eee'}} src="/assets/career 1.png" roundedCircle />
-                            </ReactBootStrap.Col>
-
-                            <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-                            <h6 class="subtitle">Property Specialist</h6>
-                            <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
-                        </ReactBootStrap.Col>
-                        <ReactBootStrap.Col className="team-single-container" data-aos="fade-up" style={{textAlign:'center'}} md={4}>
-                            <ReactBootStrap.Col style={{alignItems:'center'}}>
-                                <ReactBootStrap.Image style={{width:'20vh',height:'20vh',border:'2px solid #eee'}} src="/assets/career 1.png" roundedCircle />
-                            </ReactBootStrap.Col>
-
-                            <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-                            <h6 class="subtitle">Property Specialist</h6>
+                            <h5 class="mt-4 font-weight-medium mb-0">Name here</h5>
+                            <h6 class="subtitle">Profile</h6>
                             <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
                         </ReactBootStrap.Col>
 

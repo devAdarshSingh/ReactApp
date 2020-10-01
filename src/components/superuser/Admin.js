@@ -3,6 +3,7 @@ import '../../App.css';
 import Login from './Login';
 import Dashboard from './Dashboard';
 import * as firebase from 'firebase';
+import * as ReactBootStrap from 'react-bootstrap'
 
 
 class Admin extends React.Component {
@@ -12,32 +13,47 @@ class Admin extends React.Component {
             userid: '',
             password: '',
             isLoggedin: false,
+            check: true,
         })
     }
 
     componentDidMount() {
-            firebase.auth().onAuthStateChanged((user) => {
-                if (user) {
-                    this.setState({
-                        isLoggedin: true,
-                    })
-                } else {
-                    this.setState({
-                        isLoggedin:false
-                    })
-                }
-            })
+        firebase.auth().onAuthStateChanged((user) => {
+            if (user) {
+                this.setState({
+                    isLoggedin: true,
+                    check: false
+                })
+            } else {
+                this.setState({
+                    isLoggedin: false
+                })
+            }
+        })
     }
 
     render() {
-        if (this.state.isLoggedin) {
+        if (this.state.check) {
             return (
-                <Dashboard />
+                <div style={{
+                    padding: 50,
+                    textAlign: 'center'
+                    
+                }}>
+                    <ReactBootStrap.Spinner animation="grow" variant="info" />
+                    <h6>Please wait ...</h6>
+                </div>
             )
         } else {
-            return (
-                <Login />
-            )
+            if (this.state.isLoggedin) {
+                return (
+                    <Dashboard />
+                )
+            } else {
+                return (
+                    <Login />
+                )
+            }
         }
     }
 }

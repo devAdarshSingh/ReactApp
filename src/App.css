@@ -151,7 +151,7 @@ h4 {
 }
 
 .services-container {
-    height: 15rem;
+    height: 17rem;
     background-color: rgba(65, 76, 164, 0.308);
     color: #fff;
     padding: 2em;
@@ -259,6 +259,7 @@ h4 {
     margin: 0 0 20px 0;
     font-size: 13px;
 }
+
 .team-single-container:hover {
     -webkit-box-shadow: 0px 0px 13px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 13px -1px rgba(0, 0, 0, 0.75);
@@ -298,12 +299,13 @@ p {
     word-break: normal;
     white-space: normal;
 }
+
 /* .blog-texts{
     word-break: break-all;
     white-space: normal;
 } */
-.admin-bg{
-      /* background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0,
+.admin-bg {
+    /* background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0,
       radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em,
       radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0,
       radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em,
@@ -318,45 +320,80 @@ p {
       3.5em 11em,
       3.5em 11em,
       100% 100%; */
-      background-image: url("/assets/bgPattern.png");
-      background-repeat: repeat;
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      }
-    .login-box{
-        box-shadow: 0px 0px 81px -21px rgba(0, 0, 0, 0.75);
-        margin: 4px;
-        padding-top: 35px;
-        padding-bottom: 35px;
-        /* background-color: rgba(0, 0, 0, 0.5); */
-        backdrop-filter: blur(3px);
-        border-radius: 10px;
-        color: #fff;
-    }
+    background-image: url("/assets/bgPattern.png");
+    background-repeat: repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.login-box {
+    box-shadow: 0px 0px 81px -21px rgba(0, 0, 0, 0.75);
+    margin: 4px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    color: #fff;
+}
 
 
 /* Sidebar styles */
+.sidebar {
+    background-image: url("/assets/bgPattern.png");
+    backdrop-filter: blur(8px);
+    text-align: center;
+
+}
+
+.sidebar-link {
+    color: rgb(238, 238, 238);
+
+}
+
+.sidebar-link:hover {
+    background-color: rgba(255, 0, 157, 0.233);
+    border-bottom: 1px solid #fff;
+    color: rgb(255, 250, 250);
+    transition: all 0.5s;
+}
+
+.sidebar-collapse {
+    background: rgb(16, 78, 238);
+    /* background: linear-gradient(122deg, rgba(16, 78, 238, 1) 0%, rgba(97, 49, 214, 1) 51%, rgba(195, 46, 255, 1) 100%); */
+}
+
+.icon:hover {
+    /* background: rgb(16, 78, 238); */
+    /* background: linear-gradient(122deg, rgba(16, 78, 238, 1) 0%, rgba(97, 49, 214, 1) 51%, rgba(195, 46, 255, 1) 100%); */
+    font-size: 32;
+    transition: all 0.2s;
+}
+
+
 
 /* sidebar links */
 .sidebar-links ul {
-      list-style-type: none;
-      list-style-image: url(' ');
-      list-style-position: outside;
-  }
+    list-style-type: none;
+    list-style-image: url(' ');
+    list-style-position: outside;
+}
 
- .sidebar-links li {
-      padding: 7px;
-      margin: 0px;
-  }
-.sidebar-links ul p{
+.sidebar-links li {
+    padding: 7px;
+    margin: 0px;
+}
+
+.sidebar-links ul p {
     text-transform: uppercase;
     text-decoration: none;
 }
-  .sidebar-links ul .menuItem {
-      text-transform: uppercase;
-      color: #ffff;
-  }
+
+.sidebar-links ul .menuItem {
+    text-transform: uppercase;
+    color: #ffff;
+}
 
 
 

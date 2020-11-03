@@ -376,7 +376,7 @@ p {
 /* sidebar links */
 .sidebar-links ul {
     list-style-type: none;
-    list-style-image: url(' ');
+    /* list-style-image: url(' '); */
     list-style-position: outside;
 }
 

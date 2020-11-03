@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://Adarsh:mmx377g@patrikacluster.ooghc.mongodb.net/Avatu?retryWrites=true&w=majority",
+    "jwtSecretKey":"mySecretKey"
+}
